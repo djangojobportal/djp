@@ -1,0 +1,16 @@
+psycopg2-binary
+Django==2.1.5
+django-crispy-forms
+django-braces
+django-model-utils
+django-pipeline
+django-pure-pagination
+django-reversion
+
+easy-thumbnails
+django-widget-tweaks
+raven
+django-grappelli
+django-allauth
+# support special characters
+Unidecode
