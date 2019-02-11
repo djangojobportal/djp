@@ -145,6 +145,9 @@ all necessary servicing, repair or correction.
 Thank you
 ---------
 
+[![PyCharm](https://cloud.githubusercontent.com/assets/1421861/16826865/4cde910c-49ab-11e6-95ae-48cf21f3a69f.png)](https://www.jetbrains.com/pycharm) 
+
+We use [PyCharm](https://www.jetbrains.com/pycharm) for our python development work.
 
 Thank you to the individual contributors who have helped to build Djangojobportal:
 
