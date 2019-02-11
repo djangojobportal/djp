@@ -34,15 +34,11 @@ Story queue on Waffle:
 * [![Stories in Ready](https://badge.waffle.io/djangojobportal/djp.svg?label=ready&title=Ready)](http://waffle.io/djangojobportal/djp) 
 * [![Stories in In Progress](https://badge.waffle.io/djangojobportal/djp.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/djangojobportal/djp)
 
-[![Throughput Graph](https://graphs.waffle.io/djangojobportal/djp/throughput.svg)]
-(https://waffle.io/djangojobportal/djp/metrics)
+[![Throughput Graph](https://graphs.waffle.io/djangojobportal/djp/throughput.svg)](https://waffle.io/djangojobportal/djp/metrics)
 
-* Current test status master: [![Build Status](https://travis-ci.org/djangojobportal/djp.svg?branch=master)](https://travis-ci.org/djangojobportal/djp) and
-[![Code Health](https://landscape.io/github/djangojobportal/djp/master/landscape.svg?style=flat)](https://landscape.io/github/djangojobportal/djp/master)
+* Current test status master: [![Build Status](https://travis-ci.org/djangojobportal/djp.svg?branch=master)](https://travis-ci.org/djangojobportal/djp) and [![Code Health](https://landscape.io/github/djangojobportal/djp/master/landscape.svg?style=flat)](https://landscape.io/github/djangojobportal/djp/master)
 
-* Current test status develop: [![Build Status](https://travis-ci
-.org/djangojobportal/djp.svg?branch=develop)](https://travis-ci
-.org/djangojobportal/djp) and
+* Current test status develop: [![Build Status](https://travis-ci.org/djangojobportal/djp.svg?branch=develop)](https://travis-ci.org/djangojobportal/djp) and
 [![Code Health](https://landscape.io/github/djangojobportal/djp/develop/landscape.svg?style=flat)](https://landscape.io/github/djangojobportal/djp/develop)
 
 * Test coverage [![codecov](https://codecov.io/gh/djangojobportal/djp/branch/develop/graph/badge.svg)](https://codecov.io/gh/djangojobportal/djp)
