@@ -1,4 +1,5 @@
-# DJANGO JOB PORTAL
+DJANGO JOB PORTAL
+=================
 
 A django skill focused job portal.
 
@@ -16,7 +17,8 @@ The latest source code is available at
 * **For contribution:** See our [contribution guide](README-contrib.md)
 
 
-## Key features
+Key features
+------------
 
 * Coming soon - Loading ...
 
@@ -35,7 +37,8 @@ Project Activity
 
 
 
-## Quick Installation Guide
+Quick Installation Guide
+------------------------
 
 For deployment we use [docker](http://docker.com) so you need to have docker
 running on the host. Djp is a django app so it will help if you have
@@ -94,8 +97,8 @@ cp btsync-db.env.EXAMPLE btsync-db.env
 Now edit the ``btsync-media.env`` and ``btsync-db.env`` files, including
 relevant SECRET and DEVICE settings.
 
-## Participation
-
+Participation
+-------------
 
 We work under the philosophy that stakeholders should have access to the
 development and source code, and be able to participate in every level of the
@@ -107,12 +110,14 @@ and community members using the link below.
 
 Chart [web.flock.com/](https://web.flock.com/)
 
-## Credits
+Credits
+-------
 
 Djp was developed by [djangojobportal.com](http://djangojobportal.com) and
 individual contributors.
 
-## License
+License
+------
 
 Djp is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3 (GPLv3) as
@@ -122,7 +127,8 @@ The full GNU General Public License is available in LICENSE.txt or
 http://www.gnu.org/licenses/gpl.html
 
 
-## Disclaimer of Warranty (GPLv3)
+Disclaimer of Warranty (GPLv3)
+------------------------------
 
 There is no warranty for the program, to the extent permitted by
 applicable law. Except when otherwise stated in writing the copyright
@@ -134,21 +140,11 @@ is with you. Should the program prove defective, you assume the cost of
 all necessary servicing, repair or correction.
 
 Thank you
-_________
+---------
+
 
 Thank you to the individual contributors who have helped to build Djangojobportal:
 
 * Alison Mukoma: mukomalison@gmail.com
 * Mario Osorio: nimbiotics@gmail.com
 * Loading list ...
-
-.. _developer guide: https://github.com/djangojobportal/djp/blob/develop/README-dev.md
-.. _docker: http://docker.com
-.. _project setup guide: deployment/ansible/README.md
-.. |ready| image:: https://badge.waffle.io/djangojobportal/ddjp.svg?label=ready&title=Ready
-.. |inprogress| image:: https://badge.waffle.io/djangojobportal/ddjp.svg?label=in%20progress&title=In%20Progress
-.. |throughput_graph| image:: https://graphs.waffle.io/djangojobportal/djp/throughput.svg
-.. |test_status_master| image:: https://travis-ci.org/djangojobportal/djp.svg?branch=master
-.. |test_status_develop| image:: https://travis-ci.org/djangojobportal/ddjp.svg?branch=develop
-.. |nbsp| unicode:: 0xA0
-   :trim:
