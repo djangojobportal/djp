@@ -28,9 +28,6 @@ Project Activity
 
 Story queue on Waffle:
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/djangojobportal/djp.svg?columns=all)](https://waffle.io/djangojobportal/djp)
-
-
 * [![Stories in Ready](https://badge.waffle.io/djangojobportal/djp.svg?label=ready&title=Ready)](http://waffle.io/djangojobportal/djp) 
 * [![Stories in In Progress](https://badge.waffle.io/djangojobportal/djp.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/djangojobportal/djp)
 
