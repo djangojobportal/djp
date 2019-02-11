@@ -26,16 +26,34 @@ Key features
 Project Activity
 ----------------
 
-|ready| |inprogress|
+Story queue on Waffle:
 
-|throughput_graph|
+* [![Stories in Ready](https://badge.waffle.io/djangojobportal/djp
+.svg?label=ready&title=Ready)](http://waffle.io/djangojobportal/djp) 
+* [![Stories in In Progress](https://badge.waffle.io/djangojobportal/djp
+.svg?label=in%20progress&title=In%20Progress)](http://waffle
+.io/djangojobportal/djp)
 
-* Current test status master: |test_status_master|
+[![Throughput Graph](https://graphs.waffle.io/djangojobportal/djp/throughput
+.svg)](https://waffle.io/djangojobportal/djp/metrics)
 
-* Current test status develop: |test_status_develop|
+* Current test status master: [![Build Status](https://travis-ci
+.org/djangojobportal/djp.svg?branch=master)](https://travis-ci
+.org/inasafe/inasafe) and
+[![Code Health](https://landscape
+.io/github/djangojobportal/djp/master/landscape.svg?style=flat)]
+(https://landscape.io/github/djangojobportal/djp/master)
 
+* Current test status develop: [![Build Status](https://travis-ci
+.org/djangojobportal/djp.svg?branch=develop)](https://travis-ci
+.org/djangojobportal/djp) and
+[![Code Health](https://landscape
+.io/github/djangojobportal/djp/develop/landscape.svg?style=flat)]
+(https://landscape.io/github/djangojobportal/djp/develop)
 
-
+* Test coverage [![codecov](https://codecov
+.io/gh/djangojobportal/djp/branch/develop/graph/badge.svg)](https://codecov
+.io/gh/djangojobportal/djp)
 
 Quick Installation Guide
 ------------------------
