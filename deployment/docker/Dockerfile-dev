@@ -6,8 +6,8 @@ MAINTAINER Alison Mukoma<mukomalison@gmail.com>
 # This section taken on 2 July 2015 from
 # https://docs.docker.com/examples/running_ssh_service/
 # Sudo is needed by pycharm when it tries to pip install packages
-RUN apt-get update && apt-get install -y openssh-server sudo
-RUN mkdir /var/run/sshd
+RUN apt-get update --fix-missing && apt-get install -y openssh-server sudo
+# RUN mkdir /var/run/sshd
 RUN echo 'root:docker' | chpasswd
 RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config

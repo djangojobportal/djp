@@ -9,6 +9,7 @@
 
 smtp:
   image: catatnight/postfix
+  container_name: djp-smtp
   hostname: postfix
   environment:
     # You could change this to something more suitable
@@ -17,7 +18,8 @@ smtp:
   restart: unless-stopped
 
 db:
-  image: mukomalison/postgis:9.6-2.4
+  image: kartoza/postgis:9.6-2.4
+  container_name: djp-db
   volumes:
     #- ./pg/postgres_data:/var/lib/postgresql
     - ./backups:/backups
@@ -32,6 +34,7 @@ db:
 
 uwsgi:
   build: docker
+  container_name: djp-uwsgi
   hostname: uwsgi
   environment:
     - DATABASE_NAME=gis
@@ -54,7 +57,8 @@ uwsgi:
   user: root
 
 dbbackups:
-  image: alisonmukoma/pg-backup:9.6
+  image: kartoza/pg-backup:9.6
+  container_name: djp-db-backup
   hostname: pg-backups
   volumes:
     - ./backups:/backups
@@ -76,6 +80,7 @@ dbbackups:
 # This is normally the main entry point for a production server
 web:
   image: nginx
+  container_name: djp-web
   hostname: nginx
   volumes:
     - ./sites-enabled:/etc/nginx/conf.d:ro
@@ -96,6 +101,7 @@ web:
 devweb:
   build: docker
   dockerfile: Dockerfile-dev
+  container_name: djp-dev-web
   hostname: uwsgi
   environment:
     - DATABASE_NAME=gis
@@ -123,7 +129,8 @@ devweb:
 
 btsync-db:
   # BTSync backups for database dumps
-  image: alisonmukoma/btsync
+  image: kartoza/btsync
+  container_name: djp-db-sync
   volumes:
     # We mount RW so that we can use remove peer to clean up old backups off the server
     - ./backups:/web:rw
@@ -140,7 +147,8 @@ btsync-db:
 
 btsync-media:
   # BTSync backups for django media
-  image: alisonmukoma/btsync
+  image: kartoza/btsync
+  container_name: djp-media-sync
   volumes:
     # We mount RO as we do not really want peers to change this data
     - ./media:/web:ro
