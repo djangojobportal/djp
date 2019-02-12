@@ -1,4 +1,4 @@
-DJANGO JOB PORTAL
+Django Job Portal
 =================
 
 A django skill focused job portal.
@@ -28,7 +28,7 @@ Project Activity
 
 Story queue on Waffle:
 
-* [![Stories in Ready](https://badge.waffle.io/djangojobportal/djp.svg?label=ready&title=Ready)](http://waffle.io/djangojobportal/djp) 
+* [![Stories In Ready](https://badge.waffle.io/djangojobportal/djp.svg?label=ready&title=Ready)](http://waffle.io/djangojobportal/djp) 
 * [![Stories in In Progress](https://badge.waffle.io/djangojobportal/djp.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/djangojobportal/djp)
 
 [![Throughput Graph](https://graphs.waffle.io/djangojobportal/djp/throughput.svg)](https://waffle.io/djangojobportal/djp/metrics)
