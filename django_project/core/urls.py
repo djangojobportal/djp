@@ -29,7 +29,7 @@ def handler500(request):
     })))
 
 urlpatterns = [
-    #url(r'^site-admin/', include(admin.site.urls)),
+    url(r'^site-admin/', include(admin.site.urls)),
     url(r'^', include('base.urls')),
     #url(r'^grappelli/', include('grappelli.urls')),
     #url(r'^accounts/', include('allauth.urls')),
